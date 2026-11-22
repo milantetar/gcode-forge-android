@@ -1,0 +1,1 @@
+Initial public Android release. Three local G-code tools share one SQLite workspace, with source editing, NC import/export, toolpath playback, backup/recovery and light/dark themes.

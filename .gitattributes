@@ -1,0 +1,4 @@
+* text=auto eol=lf
+*.png binary
+# Preserve intentional spaces in byte-sensitive embedded G-code samples.
+src/gcode.ts whitespace=-blank-at-eol

@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "G-Code Forge",
+    "slug": "gcode-forge-android",
+    "version": "1.0.0",
+    "orientation": "default",
+    "userInterfaceStyle": "automatic",
+    "scheme": "gcode-forge",
+    "icon": "./assets/icon.png",
+    "android": {
+      "package": "com.gcodeforge.studio",
+      "versionCode": 1,
+      "allowBackup": false,
+      "softwareKeyboardLayoutMode": "resize"
+    },
+    "updates": {
+      "enabled": false
+    },
+    "plugins": [
+      "./plugins/with-release-signing",
+      "expo-router",
+      "expo-sqlite",
+      [
+        "expo-sharing",
+        {
+          "android": {
+            "enabled": true,
+            "singleShareMimeTypes": [
+              "text/plain",
+              "application/octet-stream",
+              "text/x-gcode"
+            ],
+            "multipleShareMimeTypes": []
+          }
+        }
+      ]
+    ],
+    "platforms": [
+      "android"
+    ]
+  }
+}

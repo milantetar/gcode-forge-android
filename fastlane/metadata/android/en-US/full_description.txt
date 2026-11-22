@@ -1,0 +1,9 @@
+G-Code Forge is an offline Android workspace for CNC G-code.
+
+Use Pattern Repeater, Hexagonal Flat Converter and Two Axis Converter in one saved file. Set parameters, generate a program, inspect its path, and copy or export an NC file.
+
+Programs, settings, presets and recovery history are stored locally in SQLite. No account, backend, advertising or analytics integration is required. Import NC, G-code and text files, or back up and restore your workspaces as JSON.
+
+The editor includes syntax colors, undo/redo, find/replace and jump to line. Compare generated output with the source, explore the toolpath with touch gestures and playback, and switch between light and dark themes.
+
+The preview is a visual aid and does not provide collision checking, stock removal or controller-accurate simulation. Always review and simulate generated code against your machine setup before machining.
